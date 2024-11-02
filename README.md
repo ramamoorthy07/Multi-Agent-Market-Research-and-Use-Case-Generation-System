@@ -29,7 +29,41 @@ This system leverages four main agents to complete distinct tasks:
 
 ## Installation
 
-1. Clone the repository:
+To run this project, follow these steps:
+
+1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/multi-agent-market-research-usecase-gen.git
-   cd multi-agent-market-research-usecase-gen
+   git clone [https://github.com/jindalayush326/Multi_Agent_Market_Research_System.git]
+   ```
+
+2. Navigate to the project directory.
+   ```bash
+   cd Multi_Agent_Market_Research_System
+   ```
+
+3. Install the required dependencies.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Set up API keys:
+
+4. Create a .env file in the root directory and add your API keys for Google Gemini Flash 1.5 and SerperAPI as follows:
+   GOOGLE_API_KEY=<your-google-api-key>
+   SERPER_API_KEY=<your-serper-api-key>
+
+## Usage
+
+1. Ensure you have installed all dependencies as instructed above.
+
+2. Run the Streamlit app.
+   ```bash
+   streamlit run app.py
+   ```
+
+3. Access the app through your browser at http://localhost:8501
+
+4. Interact with the app:
+
+   Enter the name of the company and the relevant industry (e.g.,Tech, Health, Automotive, Finance, Retail).
+   The app will generate a detailed financial and market research report, including AI use cases and relevant datasets. 
