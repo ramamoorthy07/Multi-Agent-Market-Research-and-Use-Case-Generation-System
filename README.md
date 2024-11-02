@@ -1,0 +1,2 @@
+# Multi-Agent-Market-Research-and-Use-Case-Generation-System
+This project is a multi-agent system designed to conduct in-depth market research and generate AI/ML use cases for a target company within a specific industry. Using Google Generative AI, CrewAI, and Streamlit for an interactive user interface, this system enables quick, automated research and report generation through specialized agents.
