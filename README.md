@@ -33,12 +33,12 @@ To run this project, follow these steps:
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone [https://github.com/jindalayush326/Multi_Agent_Market_Research_System.git]
+   git clone [https://github.com/ramamoorthy07/Multi-Agent-Market-Research-and-Use-Case-Generation-System.git]
    ```
 
 2. Navigate to the project directory.
    ```bash
-   cd Multi_Agent_Market_Research_System
+   cd Multi-Agent-Market-Research-and-Use-Case-Generation-System
    ```
 
 3. Install the required dependencies.
@@ -51,6 +51,7 @@ Set up API keys:
 4. Create a .env file in the root directory and add your API keys for Google Gemini Flash 1.5 and SerperAPI as follows:
    GOOGLE_API_KEY=<your-google-api-key>
    SERPER_API_KEY=<your-serper-api-key>
+   TOGETHER_API_KEY=<your-together-api-key>
 
 ## Usage
 
